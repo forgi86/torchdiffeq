@@ -152,7 +152,7 @@ if __name__ == '__main__':
     ii = 0
 
     func = ODEFunc()
-    optimizer = optim.RMSprop(func.parameters(), lr=1e-3)
+    optimizer = optim.RMSprop(func.parameters(), lr=1e-4)
     end = time.time()
 
     time_meter = RunningAverageMeter(0.97)
